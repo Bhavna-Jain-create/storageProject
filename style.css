@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mukta:wght@200&family=Roboto:wght@300;400;700&display=swap');
+@font-face{font-family: blackway; src: url("sangharia/Sangharia Demo.ttf");}
+body{font-family: 'Lato', sans-serif; }
+*{margin:0px; padding: 0px; box-sizing: border-box;}
+.top-header{background-color: #e66b20; font-size: 14px;}
+.top-header ul li a{padding: 2px;}
+.top-header ul li a:hover{text-decoration: underline;}
+.header{position:relative;}
+.header .logo-img{position: absolute; left: -5%;}
+.header ul li a{padding: 8px}
+.header ul li a i{font-size: 25px; padding: 2px;}
+.header ul li a i:hover{color:#e66b20;}
+
+.header  p{font-size: 12px; color: #3183d5; font-weight: bold !important;}
+nav { background-color:#e66b20; display: flex; justify-content: space-between; }
+.logo {padding: 20px;  text-decoration: none; color: #fff;text-transform: uppercase;}
+nav .nav-bar { display: flex;}
+nav .nav-bar .nav-bar_item {list-style-type: none; padding: 0px 20px;}
+nav .nav-bar .dropdown {position: relative;}
+.menu-bar .navbar-nav  .wrapper-one .drop-item .industry-box a{text-decoration: none;}
+
+
+ nav .nav-bar .dropdown .wrapper-one {position: absolute; left: -90%; transform: translateX(-20px) translateY(5px); width: 1200px;background-color:#e66b20;padding: 20px; z-index:999;height: 350px;overflow: hidden;visibility: hidden;transition: 0.2s ease-in-out;}
+nav .nav-bar .dropdown:hover .wrapper-one{visibility: visible;}
+.wrapper-one img{border-radius: 50%; display: block; margin: 0; width: 102px; height: 102px; padding: 2px; }
+ .wrapper-one .col{ text-align: center; color: white;}
+
+ nav .nav-bar .dropdown .wrapper-two {position: absolute;left: -400%; transform: translateX(-20px) translateY(5px); width: 1200px;background-color: #e66b20;padding: 20px; z-index: 2;height: 250px;overflow: hidden;visibility: hidden;transition: 0.2s ease-in-out;}
+nav .nav-bar .dropdown:hover .wrapper-two{visibility: visible;}
+.wrapper-two img{border-radius: 50%; display: block;margin: 0 auto 10px; width: 122px; height: 122px; padding: 2px; }
+ .wrapper-two .col{ text-align: center; color: white;}
+nav .nav-bar .nav-bar_item a {position: relative;display: block;padding-bottom: 5px; text-decoration: none; color: #fff; text-transform: uppercase}
+
+
+/*mobile-menu*/
+.menu-bar{position: relative;}
+.menu-bar .ma5menu__toggle{background-color: #3183d5; color: #3183d5; margin-top:-90px; border-radius: 0px; padding: 22px 29px; position: absolute;
+  top: 28px;}
+.ma5menu__container .ma5menu__logo { display: none;}
+.slider .item { position: relative;}
+
+
+
+.slider .owl-item.active h1 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  animation-delay: 0.3s;
+}
+.slider .owl-item.active h2 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  animation-delay: 0.3s;
+}
+.slider .owl-item.active h4 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+  animation-delay: 0.3s;
+}
+.slider .owl-item.active .line {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInLeft;
+  animation-delay: 0.3s;
+}
+.slider .owl-nav .owl-prev {
+  position: absolute;
+  left: 15px;
+  top: 40%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: rgba(0, 0, 0, 0.4) !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  display: block;
+
+  border-radius: 0;
+}
+.slider .owl-nav .owl-prev span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+.slider .owl-nav .owl-prev:focus {
+  outline: 0;
+}
+.slider .owl-nav .owl-prev:hover {
+  background: #000 !important;
+}
+.slider .owl-nav .owl-next {
+  position: absolute;
+  right: 15px;
+  top: 40%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  display: block;
+  
+  border-radius: 0;
+}
+.slider .owl-nav .owl-next span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+.slider .owl-nav .owl-next:focus {
+  outline: 0;
+}
+.slider .owl-nav .owl-next:hover {
+  background: black !important;
+}
+.slider:hover .owl-prev {
+  left: 0px;
+  opacity: 1;
+}
+.slider:hover .owl-next {
+  right: 0px;
+  opacity: 1;
+}
+.services{background-image: url(images/bg-1.jpg); margin: -1px; overflow: hidden;}
+.services h1{font-family:smiley; color:#e66b20;}
+.services .container {
+  position: relative;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.services .container-fluid{padding:0px; margin:0px;}
+
+.services .image {
+  display: block;
+  width: 100%;
+ 
+}
+
+.services .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.5);
+ 
+}
+
+ .services .container:hover .overlay {
+  opacity: 1;
+
+}
+.services .col-12{padding-right: 0px; padding-left: 0px;}
+
+
+.industries h1{font-size: 55px; color: #e66b20; font-weight: bold;}
+.industries .lead{font-size: 25px; font-weight: lighter; color: #e66b20;}
+.industries p{font-family: 'Lato', sans-serif;color: gray;}
+.storage-solution{background-image: url(images/bg-image.jpg); min-height: 200px;}
+.storage-solution h1{color: #e66b20; font-weight: bold;}
+.storage-solution h3{color: #e66b20;}
+.storage-solution p{font-size: 18px;}
+.storage-solution p span{color: #e66b20;}
+.about-frazier{background-color: #b7b7b7;}
+.about-frazier h4{color: #e66b20; font-size: 22px;}
+.about-frazier ul li a{color: white; font-size: 18px;}
+.about-frazier ul li a:hover{color: blue;}
+.about-frazier h3{color: #e66b20;}
+.about-frazier form input{border-radius: 0px; height: 50px;}
+.about-frazier form ::placeholder{font-size: 20px; }
+.about-frazier form .btn{background-color: rgba(0,0,0,0.1); border: 1px solid white; color: white; font-size: 20px;}
+.about-frazier .news-box  .btn{background-color: rgba(0,0,0,0.1); border: 1px solid white; color: white; font-size: 20px;}
+.footer{background-color: black; background-size: cover; background-position: center;min-height: 400px; padding: 0px 25px;}
+.footer ul li a{color: white;}
+.footer ul li a:hover{color:#e66b20;}
+.footer h6{color:#e66b20;}
+.footer p{color: white;}
+.footer .btn{border-radius: 0px; color: white; background-color: rgba(0,0,0,0.1); border: 1px solid white; font-size: 20px;}
+
+/*Sitemap*/
+
+.sitemap-banner{background-image: url(images/bg-2.jpg); background-size: cover; background-position: center; min-height: 400px; }
+.sitemap-banner h2{background-color: rgba(0, 0, 0, 0.4); padding: 10px 25px; margin-top: 10%;  font-size: 45px; font-family: serif;}
+.sitemap-links .col-xl-3 .links {background-color: #e66b20;  text-align: center;  width: 100%; font-size: 20px;  }
+.sitemap-links .links a{text-decoration: none;}
+.sitemap-product-links .product-links{background-color: gray; font-size: 20px; text-align: center; }
+.sitemap-product-links .product-links a{text-decoration: none;}
+
+/*Contact Us*/
+.contact-banner{background-image: url(images/bg-2.jpg); background-size: cover; background-position: center; min-height: 400px; }
+.contact-banner h2{background-color: rgba(0, 0, 0, 0.4); padding: 10px 25px; margin: 10%;  font-size: 45px; font-family: serif;}
+.contact .contact-details{background-color: #e66b20; color: white;  height: 200px; width: 100%;}
+.contact-us h2{font-size: 40px; font-family: serif; font-weight: bolder; color: #e66b20;}
+.contact-us p{color: gray;}
+.contact-us form{line-height: 0px; }
+.contact-us form textarea{line-height: 10px; margin: 10px auto; border-radius: 10px;}
+.contact-us form textarea:focus{border: 0px solid white;}
+.contact-us .col{max-width:400px; height: 100%; background-color: #3183d5; border-radius: 10px;}
+.contact-us .col .form-control{width: 90%; margin: 0px auto; height: 50px; border-radius: 10px;}
+.contact-us .btn{margin: 0px; border-radius: 10px; font-size: 18px; }
+.contact-us .btn:hover{background-color: #3183d5; color: white; }
+
+
+/*Rack Guide*/
+.rack-banner{background-image: url(images/bg-2.jpg); background-size: cover; background-position: center; width: 100%; min-height: 400px; }
+.rack-banner h2{background-color: rgba(0, 0, 0, 0.4); padding: 10px 25px; margin-top:10%;font-family: serif; font-size: 45px;}
+.rackguide span{color: #e66b20; font-size: 40px; font-weight: bold; font-family: blackway; cursor: pointer;}
+
+/*Racks*/
+.rack-product img:hover{animation: shake 1s cubic-bezier(.3,.06,.2,.9) infinite;}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, -1px, 0) rotate(5deg); 
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, -4px, 0) rotate(-2deg);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, -1px, 0) rotate(3deg);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 2px, 0) rotate(-4deg);
+  }
+}
+.rack-product h2{font-size: 45px; font-weight: bold; color:#e66b20}
+
+
